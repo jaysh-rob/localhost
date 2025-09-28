@@ -1,0 +1,38 @@
+apt install python3.12 -venv -y
+python3 -m venv myenv
+source myenv/bin/active
+
+
+
+Setup Postgressql:
+
+Installing postgresql - 
+apt-get install postgresql postgresql-contrib
+systemctl start postgresql
+systemctl enable postgresql
+
+sudo -i -u postgres (Get postgresql terminal)
+psql (Login to the database)
+create user root with password 'root'; (create user root with password root)
+create database my_database; (Creating database)
+grant all privileges on database my_database to root; (Provide previlages to root for database my_database)
+\l - to check db
+\c my_database - select database
+psql -U postgres -f my_database
+
+grant all privileges on schema public to root;
+grant create on database my_database to root;
+
+pip3 install -r requirements.txt (INstalling lib)
+
+
+
+Login existing user:
+psql -U root -h 127.0.0.1 -p 5432 -d postgres
+
+
+\dt- to check available tables 
+SELECT * from item; - TO check tables in 
+
+
+

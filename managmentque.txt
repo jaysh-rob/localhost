@@ -1,0 +1,165 @@
+1)tell me about a time when you handled a task within tight deadlines?
+
+During a weekend maintenance window, I was monitoring a high-traffic website hosted on an Apache web server. Suddenly, the server began responding with 503 Service Unavailable errors. This occurred just before a critical online sales campaign launch, and resolving the issue was urgent to prevent revenue loss.
+I needed to quickly diagnose and resolve the issue within one hour to ensure the website was back online for the sales event, with minimal impact on the end users.
+I immediately accessed the server logs (/var/log/apache2/error.log) to pinpoint the issue. I identified that the server was hitting its MaxClients/MaxConnections limit, causing resource exhaustion.
+Dive Deep: I reviewed the Apache configuration file (httpd.conf) and confirmed that the limit was set too low for the expected traffic spike.
+Ownership: To address the issue, I:
+Increased the MaxClients limit in the configuration.
+Tuned the KeepAliveTimeout to optimize resource utilization.
+Restarted the Apache service to apply the changes.
+Customer Obsession: To minimize downtime, I kept stakeholders informed, including the marketing team and the client, providing real-time updates on progress.
+
+
+2) Tell me about a time when you had to work with a difficult team member. How did you handle it?
+
+
+
+
+
+3) Describe a time you failed. How did you handle it, and what did you learn?
+
+In a previous role, my manager asked me to set up a CI/CD pipeline using TeamCity for a project. I hadn’t worked with TeamCity before, so it felt overwhelming at first, especially with the tight deadline.
+
+I started by breaking the task into smaller steps and focused on learning the basics of TeamCity that were relevant to the project. I also asked a colleague with experience for guidance and referred to online resources to speed up the process. Despite my efforts, I couldn’t meet the original deadline and completed it a day late.
+
+After delivering the pipeline, I reflected on what I could do better next time. I created templates for similar pipelines and started proactively learning about tools I hadn’t used before. This experience taught me how to adapt quickly, ask for help when needed, and plan better for unfamiliar challenges.
+
+ 
+4) How do you prioritize tasks when you have competing deadlines?
+
+When I have competing deadlines, I focus on the tasks that have the highest impact or are most urgent. I quickly evaluate which task is critical for the customer or the business and prioritize that.
+
+For example, once I had a server migration and a critical security update at the same time. I prioritized the security update since it impacted a client’s live environment. I communicated with my team about the migration timeline and made sure everyone was informed. By staying focused on the urgent task and coordinating well, I was able to complete both on time.
+
+5) Describe a time you failed. How did you handle it, and what did you learn?
+
+In my previous role, my manager asked me to set up a CI/CD pipeline using TeamCity. I had no experience with TeamCity. I was given 6 days to complete the infrastructure and the CI/CD pipeline, and on the 7th day, we had a demo for the staging environment with our client.
+
+I split the task into smaller chunks and started working on the client’s requirements. However, it took me the full 6 days to learn TeamCity. I wasn’t able to complete the CI/CD pipeline and deployment on the server in time. On the 7th day, my teammate helped me set up the CI/CD pipeline, and we were able to give the demo to the client as planned.
+
+I learned that taking responsibility is important, but when we’re not sure about something, it’s crucial to ask for help from teammates at the right time. Doing so can save a lot of time and help us deliver the results we need.
+
+
+6) What does customer obsession mean to you, and how have you demonstrated it in your work?
+
+customer obsession means always putting the customer’s needs first and working hard to provide them with the best experience possible. It’s about understanding their challenges and proactively finding solutions to help them succeed.
+In one of my previous roles, we were working on a critical project for a client with tight deadlines. I made sure to maintain clear and constant communication with the client, updating them regularly on progress and addressing any concerns they had. When an issue arose during a deployment, I immediately took ownership and worked with my team to resolve it as quickly as possible, keeping the client informed every step of the way.
+
+By focusing on the client’s needs, making sure they felt heard, and being transparent throughout the process, we were able to deliver the project successfully and meet their expectations. It was a great reminder that going the extra mile for the customer is what truly builds trust and strong relationships.
+
+7) Tell me about a time when you had to make a difficult decision with limited information.
+
+In a previous role as a Linux Administrator, one of our critical production servers started running slow, and system alerts were going off. With limited information and unclear logs, I had to decide whether to restart the server or investigate further. Since it was a busy time for the client, I chose to restart the server to minimize downtime.
+
+Thankfully, the restart temporarily resolved the issue, giving me time to dig deeper. Later, I identified a misconfigured process causing the problem and fixed it. This taught me the importance of acting decisively while following up to prevent future issues.
+
+8) Imagine you are working on a critical project, and your manager asks you to take on another urgent task. How would you handle it?
+
+If my manager asked me to take on another urgent task while working on a critical project, I would first evaluate the priority and deadlines of both tasks. I would communicate with my manager to understand which task has the highest urgency and discuss whether the timeline for the original project could be adjusted.
+
+If both tasks needed immediate attention, I would break them into smaller parts, focus on completing the most critical aspects first, and delegate or collaborate with teammates if possible. Clear communication and proper time management would be key to ensuring both tasks are handled effectively without compromising quality.
+
+9) You discover a recurring issue affecting customers. How would you approach solving it?You discover a recurring issue affecting customers. How would you approach solving it?
+
+If I found that the client was facing the same issue repeatedly, I would gather as much data as possible to analyze the problem. I would take steps to replicate the issue, check live and historical logs, and look for patterns to identify the root cause.
+
+While working on the resolution, I would keep the client informed about the progress and the actions being taken. After resolving the issue, I would create an RCA (Root Cause Analysis) report and share it with the client to ensure transparency. Additionally, I would document the steps for resolving the issue and share it with my team and manager to prevent future occurrences.
+
+10) tell me how you handled non-supportive team members in your team.
+In a previous role, I had a team member who was hesitant to collaborate on a task. Instead of escalating the situation, I approached them directly to understand their concerns and found they were unsure about certain aspects of the work. I offered guidance and shared resources to help them gain confidence.
+
+By fostering open communication and support, we were able to complete the task together successfully. This experience taught me the importance of patience and understanding when addressing challenges within a team."**
+
+This concise response highlights Earn Trust, Ownership, and Dive Deep, aligning with AWS principles.
+
+11) Tell me about a time when you had to take critical feedback from manager or team leader?
+
+In a previous role, my manager gave me feedback that my incident documentation wasn’t detailed enough, which made it harder for the team to troubleshoot similar issues later. At first, it was tough to hear, but I saw it as a chance to improve.
+
+I asked my manager for specific examples and tips on how to make my documentation better. After that, I created a checklist to include important details like root causes, steps to fix the issue, and lessons learned. Over time, my reports became a helpful resource for the team, and my manager acknowledged the improvement.
+
+This experience taught me to see feedback as an opportunity to grow and always stay open to learning.
+
+12) Tell me about a time when you had to take critical feedback from manager or team leader?
+
+If a client was upset and raised a concern, I’d start by listening carefully to understand the issue and let them know I take their concerns seriously. I’d acknowledge their frustration and reassure them that I’m focused on finding a solution quickly.
+
+I’d then gather all the details, investigate the root cause, and keep the client updated throughout the process so they feel informed and supported. Once the issue is resolved, I’d explain what was done to fix it and make sure they’re satisfied with the outcome.
+
+Afterward, I’d look into what caused the problem and work on improving processes to avoid similar issues in the future. For me, it’s important to turn a negative experience into a positive one by showing accountability and ensuring the client feels valued.
+
+
+
+
+13) You’re part of a cross-functional team with competing goals. How would you align everyone to achieve a common objective?
+
+In a cross-functional team with competing goals, I would start by ensuring clear communication. I’d organize a meeting to understand each team’s priorities and how they align with the overall objective. By listening to everyone’s perspectives, we can identify common ground and areas where collaboration is most needed.
+
+Next, I’d work with the team to break down the objective into smaller, shared milestones and clarify responsibilities for each group. If there were conflicts, I’d focus on the bigger picture and emphasize how achieving the common goal benefits everyone.
+
+Throughout the process, I’d maintain open communication, track progress, and address any concerns early to keep everyone aligned and on track.
+
+
+
+
+
+========================
+### **Behavioral and Cultural Fit Questions**
+1. **"Tell me about a time when you had to work with a difficult team member. How did you handle it?"**
+   - **What they’re looking for:** Collaboration, emotional intelligence, and conflict resolution skills.
+   - **How to answer:** Highlight specific actions you took to address the situation positively, focusing on maintaining team harmony and achieving goals.
+
+2. **"How do you prioritize tasks when you have competing deadlines?"**
+   - **What they’re looking for:** Ownership, bias for action, and the ability to deliver results.
+   - **How to answer:** Explain your approach to prioritization, delegation (if applicable), and time management using an example from your experience.
+
+3. **"Describe a time you failed. How did you handle it, and what did you learn?"**
+   - **What they’re looking for:** Growth mindset, accountability, and resilience.
+   - **How to answer:** Share a specific failure, take ownership, and emphasize the lessons you learned and how you improved as a result.
+
+4. **"What does customer obsession mean to you, and how have you demonstrated it in your work?"**
+   - **What they’re looking for:** Commitment to delivering value to customers, even in challenging situations.
+   - **How to answer:** Use examples where you went above and beyond to ensure customer satisfaction, such as resolving critical client issues in your previous roles.
+
+5. **"Tell me about a time when you had to make a difficult decision with limited information."**
+   - **What they’re looking for:** Decision-making under ambiguity and leadership qualities.
+   - **How to answer:** Provide an example of a situation where you analyzed available data, weighed risks, and took decisive action.
+
+---
+
+### **Scenario-Based Questions**
+6. **"Imagine you are working on a critical project, and your manager asks you to take on another urgent task. How would you handle it?"**
+   - **How to answer:** Explain how you would communicate with your manager to understand priorities, negotiate deadlines, or delegate tasks if possible.
+
+7. **"You discover a recurring issue affecting customers. How would you approach solving it?"**
+   - **How to answer:** Show your problem-solving skills by discussing root cause analysis, implementing long-term solutions, and improving processes.
+
+8. **"You identify an inefficiency in a process. How would you bring it up to your team and implement a change?"**
+   - **How to answer:** Highlight your ability to innovate and earn trust by collaborating with the team to create and implement solutions.
+
+9. **"A client is dissatisfied and escalates their concern. How would you manage the situation?"**
+   - **How to answer:** Demonstrate empathy, active listening, and the ability to resolve the issue while maintaining a positive relationship with the client.
+
+10. **"You’re part of a cross-functional team with competing goals. How would you align everyone to achieve a common objective?"**
+    - **How to answer:** Emphasize your communication skills, ability to influence others, and focus on shared goals.
+
+---
+
+### **Leadership Principles Integration**
+Amazon’s **Leadership Principles** include qualities like ownership, bias for action, and insistence on the highest standards. Integrate these into your answers:
+- **Ownership:** Demonstrate how you take responsibility beyond your role.
+- **Deliver Results:** Share examples of achieving goals under tight deadlines.
+- **Learn and Be Curious:** Highlight your continuous learning efforts, such as certifications and expanding your DevOps skills.
+- **Dive Deep:** Showcase your analytical approach in solving problems.
+- **Customer Obsession:** Mention your dedication to delivering high-quality solutions.
+
+---
+
+### **Key Tips**
+- Use the **STAR method** (Situation, Task, Action, Result) to structure your answers.
+- Be authentic and provide examples from your real experiences.
+- Research AWS's Leadership Principles thoroughly and align your responses with them.
+- Show enthusiasm for AWS's mission and your role in contributing to it.
+
+Would you like to practice answers to any specific type of question?
